@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:padding="5dp"
+        android:id="@+id/question"
+        android:layout_gravity="center"
+        android:background="@drawable/textinputborder"
+        android:hint="Enter The Question"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/description"
+        android:background="@drawable/textinputborder"
+        android:padding="5dp"
+        android:lines="8"
+        android:gravity="top"
+        android:hint="Description"
+        android:scrollbars="vertical"
+         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/post"
+        android:layout_gravity="center_horizontal"
+        android:text="Post"/>
+
+</LinearLayout>
